@@ -1,0 +1,10 @@
+{
+  "description": {
+    "language": "dotnet-isolated",
+    "extensions": [ ".dll" ],
+    "defaultExecutablePath": "dotnet",
+    "defaultWorkerPath": "fn1.dll",
+    "workerIndexing": "false",
+    "canUsePlaceholder": true
+  }
+}

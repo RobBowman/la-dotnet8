@@ -1,0 +1,19 @@
+[
+  {
+    "name": "fn1",
+    "scriptFile": "fn1.dll",
+    "entryPoint": "ns1.fn1.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "zipCode",
+        "direction": "In",
+        "type": "workflowActionTrigger",
+        "properties": {}
+      }
+    ]
+  }
+]
